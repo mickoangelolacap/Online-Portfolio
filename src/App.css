@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,453 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: 'Helvetica Neue', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #F9F6EF;
+}
+
+/*Navbar*/
+.navbar img {
+  height: 40px;
+}
+.nav-item {
+  padding: 20px;
+}
+/*End Navbar*/
+
+/*Landing*/
+#landing {
+  height: 75vh;
+}
+#landing h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+#landing img {
+  height: 80px;
+  color: #333;
+}
+strike {
+  color: #A3AAAE;
+  opacity: .5;
+}
+/*End Landing*/
+
+/*About*/
+#minimal {
+  background-color: #333;
+  height: 70vh;
+}
+#minimal h1 {
+  color: #f3f3f3;
+  font-size: 30vh;
+  font-family: 'Roboto', sans-serif;
+}
+#minimal span {
+  color: #A3AAAE;
+  font-size: 5vh;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+#me {
+  height: 70vh;
+  background-color: #A3AAAE;
+  border-top: 17vh solid #F9F6EF;
+  /*border-bottom: 5px solid #dc3545;*/
+}
+#me img {
+  height: 30vh;
+  border-radius: 50%;
+  box-shadow: 10px 10px #dc3545;
+  position: relative;
+  top: -50%;
+}
+.me2 h3 {
+  position: relative;
+  top: -70%;
+}
+.me2 h1 {
+  position: relative;
+  top: -75%;
+}
+.me3 button {
+  position: relative;
+  top: -220%;
+}
+#me .aboutname {
+    margin-top: 40px;
+  }
+/*About2*/
+#about2 h1 {
+  font-size: 20vh;
+  position: relative;
+  top: 8%;
+  font-weight: bold;
+}
+#about2 #image1 {
+  height: 80vh;
+  box-shadow: 20px 20px #dc3545;
+}
+#about2 #skills {
+  margin-top: 150px;
+}
+#skills img {
+  height: 80px;
+  padding: 15px;
+  margin: 0 1px;
+}
+#skills h2 {
+  font-weight: bold;
+  margin-top: 40px;
+  /*border-bottom: 5px solid #dc3545;*/
+}
+#skills figure {
+  display: inline-block;
+}
+#skills figure:hover {
+  transform: scale(1.2);
+  transition: .3s;
+}
+#skills figcaption {
+  font-size: 12px;
+}
+
+/*About 3*/
+#about3 {
+  background-image: url(images/abstract.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+}
+#about3 img {
+  height: 50vh;
+}
+/*End About*/
+
+/*Featured*/
+.tab-content {
+  height: 70vh;
+}
+#featured h1 {
+  font-size: 20vh;
+  position: relative;
+  top: 9%;
+  font-weight: bold;
+}
+#featured h2 {
+  font-size: 6vh;
+  font-weight: bold;
+}
+#featured .adopt {
+  background-color: #9C9990;
+}
+.set img {
+  height: 50vh;
+  padding:0 0 20px 20px;
+}
+.adopt p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #495057;
+}
+.setcontent img {
+  height: 50px;
+  padding: 5px;
+}
+#featured .nav-link img {
+  height: 20vh;
+  position: relative;
+  top: 15%;
+  /*opacity: .5;*/
+}
+#featured .nav-link {
+  height: 30vh;
+}
+#featured .nav-link:hover {
+  opacity: .5;
+}
+#featured .adopticon {
+  background-color: #9C9990;
+}
+#featured .vantage {
+  background-color: #909376;
+}
+.vantage p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #4F503F;
+}
+
+#featured .vantageicon {
+  background-color: #909376;
+}
+#featured .covid {
+  background-color: #A1987D;
+}
+.covid p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #5F5845;
+}
+#featured .covidicon {
+  background-color: #A1987D;
+}
+/*End Featured*/
+
+/* Extra */
+#extra .isa {
+  height: 100vh;
+  background-color: black;
+}
+#extra .tatlo {
+  height: 100vh;
+  background-color: #dc3545;
+}
+#extra .logo {
+  height: 10vh;
+  background-color: #333;
+}
+#extra .img {
+  height: 100vh;
+}
+.isa h2 {
+  font-size: 50px;
+  color: #F9F6EF;
+}
+/* End Extra */
+
+/* Footer */
+#footer {
+  height: 100vh;
+  background-image: url(images/footerabstract.png);
+  background-size: cover;
+}
+#footer .foot {
+  height: 80vh;
+  background-color: #333;
+  margin-top: 150px;
+}
+.social-media a{
+  color: #F9F6EF;
+  padding: 0 .2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 5px; 
+}
+.social-media a:hover{
+  color: #dc3545;
+}
+.foot h1 {
+  color: #6c757d;
+}
+.foot p {
+  color: #F9F6EF;
+}
+.foot h2 {
+  color: #dc3545;
+  font-size: 88px;
+  font-weight: bolder;
+  position: relative;
+  top: -33%;
+}
+.foot span {
+  color: #F9F6EF;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.hi img {
+  height: 50px;
+  display: block;
+}
+.goup img {
+  height: 80px;
+  transform: rotate(180deg);
+}
+/* End Footer */
+
+/* MEDIUM SCREEN */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  /*About*/
+  #minimal h1 {
+    font-size: 10vh;
+  }
+  #me img {
+    position: relative;
+    top: -50%; 
+  }
+  .me2 h3 {
+    position: relative;
+    top: -100%;
+  }
+  .me2 h1 {
+    position: relative;
+    top: -100%;
+  }
+  .me3 button {
+    position: relative;
+    top: -400%;
+  }
+  #me .aboutname {
+    margin-top: 100px;
+  }
+  /*End About*/
+
+  /*Featured*/
+  #featured h1 {
+    font-size: 13vh;
+  }
+  .tab-content {
+    height: 100vh;
+  }
+  /*End Featured*/
+
+  /*Extra*/
+  #extra .isa {
+    height: 60vh;
+  } 
+  #extra .dalawa img {
+    height: 60vh;
+  }
+  #extra .tatlo {
+    height: 10vh;
+  }
+  /*End Extra*/
+
+  /*Footer*/
+  #footer {
+    background-size: contain;
+  }
+  .foot h1 {
+    font-size: 20px;
+  }
+  .foot p {
+    font-size: 14px;
+  }
+  .foot h2 {
+    font-size: 70px;
+    position: relative;
+    top: -20%;
+  }
+  /*End Footer*/
+}
+
+/* SMALL SCREEN */
+@media only screen and (max-width: 451px) {
+  /*Landing*/
+  #landing {
+    height: 100vh;
+  }
+  #landing h1 {
+    font-size: 50px;
+  }
+  #landing img {
+    height: 80px;
+    color: #333;
+  }
+  /*End Landing*/
+  /*About*/
+  #minimal h1 {
+    font-size: 50px;
+  }
+  #me img {
+    position: relative;
+    top: -50%; 
+  }
+  .me2 h3 {
+    position: relative;
+    top: -70%;
+  }
+  .me2 h1 {
+    position: relative;
+    top: -70%;
+    font-size: 30px;
+  }
+  .me3 button {
+    position: relative;
+    top: -250%;
+  }
+  #about2 h1 {
+    font-size: 100px;
+    position: relative;
+    top: 6%;
+    font-weight: bold;
+  }
+  #about2 #image1 {
+    height: 80vh;
+    box-shadow: 20px 20px #dc3545;
+  }
+  #about3 img {
+    height: 20vh;
+  }
+  /*End About*/
+  /*Featured*/
+  .tab-content {
+    height: 90vh;
+  }
+  #featured h1 {
+    font-size: 60px;
+    position: relative;
+    top: 4%;
+  }
+  .set img {
+    height: 30vh;
+    padding:0 0 20px 20px;
+  }
+  #featured h2 {
+    font-size: 4vh;
+  }
+  #featured .nav-link img {
+    height: 12vh;
+  }
+  #featured .nav-link {
+    height: 20vh;
+  }
+  /*End Featured*/
+
+  /*Extra*/
+  #extra .isa {
+    height: 70vh;
+  } 
+  #extra .dalawa img {
+    height: 40vh;
+  }
+  #extra .tatlo {
+    height: 5vh;
+  }
+  /*End Extra*/
+
+  /*Footer*/
+  #footer {
+    background-size: contain;
+  }
+  .foot h1 {
+    font-size: 20px;
+  }
+  .foot p {
+    font-size: 14px;
+  }
+  .foot h2 {
+    font-size: 70px;
+    position: relative;
+    top: 0%;
+  }
+  .foot .hi {
+    padding: 15px;
+  }
+  .goup img {
+    height: 50px;
+    transform: rotate(180deg);
+  }
+  /*End Footer*/
 }
