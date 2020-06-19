@@ -74,14 +74,14 @@ body {
   color: #333;
 }
 strike {
-  color: #A3AAAE;
+  color: #666;
   opacity: .5;
 }
 /*End Landing*/
 
 /*About*/
 #minimal {
-  background-color: #333;
+  background-color: #1c1c1c;
   height: 70vh;
 }
 #minimal h1 {
@@ -90,13 +90,13 @@ strike {
   font-family: 'Roboto', sans-serif;
 }
 #minimal span {
-  color: #A3AAAE;
+  color: #666;
   font-size: 5vh;
   font-family: 'Helvetica Neue', sans-serif;
 }
 #me {
   height: 70vh;
-  background-color: #A3AAAE;
+  background-color: #1c1c1c;
   border-top: 17vh solid #F9F6EF;
   /*border-bottom: 5px solid #dc3545;*/
 }
@@ -110,10 +110,12 @@ strike {
 .me2 h3 {
   position: relative;
   top: -70%;
+  color: #666;
 }
 .me2 h1 {
   position: relative;
   top: -75%;
+  color: #F9F6EF;
 }
 .me3 button {
   position: relative;
@@ -182,9 +184,10 @@ strike {
 #featured h2 {
   font-size: 6vh;
   font-weight: bold;
+  color: #F9F6EF;
 }
 #featured .adopt {
-  background-color: #9C9990;
+  background-color: #1c1c1c;
 }
 .set img {
   height: 50vh;
@@ -193,7 +196,7 @@ strike {
 .adopt p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #495057;
+  color: #666;
 }
 .setcontent img {
   height: 50px;
@@ -203,6 +206,7 @@ strike {
   height: 20vh;
   position: relative;
   top: 15%;
+  border-radius: 10px;
   /*opacity: .5;*/
 }
 #featured .nav-link {
@@ -212,37 +216,37 @@ strike {
   opacity: .5;
 }
 #featured .adopticon {
-  background-color: #9C9990;
+  background-color: #1c1c1c;
 }
 #featured .vantage {
-  background-color: #909376;
+  background-color: #1c1c1c;
 }
 .vantage p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #4F503F;
+  color: #666;
 }
 
 #featured .vantageicon {
-  background-color: #909376;
+  background-color: #1c1c1c;
 }
 #featured .covid {
-  background-color: #A1987D;
+  background-color: #1c1c1c;
 }
 .covid p {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  color: #5F5845;
+  color: #666;
 }
 #featured .covidicon {
-  background-color: #A1987D;
+  background-color: #1c1c1c;
 }
 /*End Featured*/
 
 /* Extra */
 #extra .isa {
   height: 100vh;
-  background-color: black;
+  background-color: #1c1c1c;
 }
 #extra .tatlo {
   height: 100vh;
@@ -268,8 +272,8 @@ strike {
   background-size: cover;
 }
 #footer .foot {
-  height: 80vh;
-  background-color: #333;
+  height: 70vh;
+  background-color: #1c1c1c;
   margin-top: 150px;
 }
 .social-media a{
@@ -283,7 +287,7 @@ strike {
   color: #dc3545;
 }
 .foot h1 {
-  color: #6c757d;
+  color: #666;
 }
 .foot p {
   color: #F9F6EF;
@@ -299,6 +303,9 @@ strike {
   color: #F9F6EF;
   font-size: 18px;
   font-weight: bolder;
+}
+.hi {
+  background-color: #333;
 }
 .hi img {
   height: 50px;

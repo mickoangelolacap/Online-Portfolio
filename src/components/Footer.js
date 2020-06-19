@@ -16,6 +16,7 @@ const Footer = () => {
 								<p>+63956-872-0280</p>
 								<h1 className="mt-5 pt-5">ADDRESS</h1>
 								<p>Binangonan, Rizal, Philippines</p>
+								
 							</div>
 							<div className="col-md-6 col-12 d-lg-none py-4 pr-5">
 								<h1>PHONE</h1>
@@ -60,12 +61,9 @@ const Footer = () => {
 			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
 			                            <i className="fab fa-linkedin"></i>
 			                        </a>
-			                        <a href="https://gitlab.com/mickoangelolacap" target="_blank">
-			                            <i className="fab fa-gitlab"></i>
-			                        </a>
 			                    </span>
 							</div>
-							<div className="col-lg-4 col-md-6 col-12 text-center bg-dark hi">
+							<div className="col-lg-4 col-md-6 col-12 text-center hi">
 								<h2>Say Hi.</h2>
 								<img className="img-fluid ml-5 my-4" src={MACLWR} alt=""/>
 								<span>&copy; 2020 | Micko Angelo <strong className="text-danger">C.</strong> Lacap </span>
@@ -84,3 +82,7 @@ const Footer = () => {
 }
 
 export default Footer
+
+// <a href="https://gitlab.com/mickoangelolacap" target="_blank">
+//     <i className="fab fa-gitlab"></i>
+// </a>

@@ -22,7 +22,7 @@ const Landing = () => {
 			
 			<section id="landing" className="p-4 px-lg-5 mx-lg-5">
 				{/*<h3 className="pb-5">Micko Angelo <strong className="text-danger">C.</strong> Lacap</h3>*/}
-				<h1 className="pt-md-5 mt-md-4 pt-5">Let's turn your <strike>Imagination</strike> Idea </h1>
+				<h1 className="pt-5">Let's turn your <strike>Imagination</strike> Idea </h1>
 				<h1 className="pb-4">into <strike>Reality A</strike> The <span className="text-danger">Real Thing</span></h1>
 				<button className={button.style} onClick={()=>{setDarkMode(!darkMode)}}>{button.name}</button>
 				<a href="#about" className="text-center d-block pt-4 pt-md-5 mt-md-5">

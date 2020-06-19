@@ -55,7 +55,7 @@ const About = () => {
 						    	<h1 className="p-2 font-weight-bold">Hey! I'm a Full-Stack Web Developer.</h1>
 							</div>
 							<div className="col-12 me3">
-						    	<button id="closer" className="btn btn-danger py-2 px-4 mt-2" data-toggle="modal" data-target="#exampleModalCenter">Get Closer</button>
+						    	<button id="closer" className="btn btn-outline-danger py-2 px-5 font-weight-bold mt-2" data-toggle="modal" data-target="#exampleModalCenter">Get Closer</button>
 							</div>
 				    	</div>
 				    </div>
@@ -70,11 +70,11 @@ const About = () => {
 
 				<div id="about2" className="container mb-5 py-5">
 					<div className="row">
-						<div className="col-lg-5 p-md-0 p-4">
+						<div className="col-lg-5 p-md-0 p-4" data-aos="fade-up">
 							<h1 className="text-danger">About.</h1>
 							<img className="img-fluid" id="image1" src={image1} alt=""/>
 						</div>
-						<div id="skills" className="col-lg-7 text-center">
+						<div id="skills" className="col-lg-7 text-center" data-aos="fade-left">
 							<h2>Front End</h2>
 							<figure>
 								<img src={react} alt="react"/>
@@ -110,14 +110,6 @@ const About = () => {
 								<figcaption>Node.js</figcaption>
 							</figure>
 							<figure>
-								<img src={mysql} alt=""/>
-								<figcaption>MySQL</figcaption>
-							</figure>
-							<figure>
-								<img src={php} alt=""/>
-								<figcaption>PHP</figcaption>
-							</figure>
-							<figure>
 								<img src={graphql} alt=""/>
 								<figcaption>GraphQL</figcaption>
 							</figure>
@@ -128,6 +120,14 @@ const About = () => {
 							<figure>
 								<img src={laravel} alt=""/>
 								<figcaption>Laravel</figcaption>
+							</figure>
+							<figure>
+								<img src={mysql} alt=""/>
+								<figcaption>MySQL</figcaption>
+							</figure>
+							<figure>
+								<img src={php} alt=""/>
+								<figcaption>PHP</figcaption>
 							</figure>
 							<h2>Other</h2>
 							<figure>

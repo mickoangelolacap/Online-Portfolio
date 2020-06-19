@@ -1,7 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import logo from '../images/MACL.png'
-import SweetAlert from 'react-bootstrap-sweetalert';
+import swal from 'sweetalert';
+
+const alert = (e) => {
+	swal({
+     title: "Message received. Thanks!",
+     text: "I'll be in touch with you shortly.",
+     type: "success"
+     })
+	e.preventDefault();
+}
 
 const Navbar = () => {
 
@@ -38,7 +47,8 @@ const Navbar = () => {
 								        </button>
 								        	<h3 className="text-light">Thanks for reaching out <strong className="text-danger">!</strong></h3>
 
-											<form className="p-4">
+
+											<form id="subform" className="p-4" onSubmit={(e)=> alert(e)} action="mailto:mickoangelolacap@gmail.com">
 											  <div className="form-group">
 											      <label className="text-light" htmlFor="validationServer01">Name</label>
 											      <input type="text" className="form-control" id="validationServer01" placeholder="Name" required/>
@@ -54,6 +64,22 @@ const Navbar = () => {
 											  
 											  <button className="btn btn-danger px-5 mt-4" type="submit">Send</button>
 											</form>
+											
+											<hr className="bg-danger"/>
+											<div className="social-media text-center">
+						                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank">
+						                            <i className="fab fa-facebook-square"></i>
+						                        </a>
+						                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank">
+						                            <i className="fab fa-instagram"></i>
+						                        </a>
+						                        <a href="https://www.twitter.com/angelolacap" target="_blank">
+						                            <i className="fab fa-twitter"></i>
+						                        </a> 
+						                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
+						                            <i className="fab fa-linkedin"></i>
+						                        </a>
+						                    </div>
 
 								      </div>
 								    </div>
