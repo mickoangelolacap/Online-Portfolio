@@ -39,8 +39,8 @@ const Footer = () => {
 			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
 			                            <i className="fab fa-linkedin"></i>
 			                        </a>
-			                        <a href="https://gitlab.com/mickoangelolacap" target="_blank">
-			                            <i className="fab fa-gitlab"></i>
+			                        <a href="https://github.com/mickoangelolacap" target="_blank">
+			                            <i className="fab fa-github"></i>
 			                        </a>
 			                    </span>
 							</div>
@@ -60,6 +60,9 @@ const Footer = () => {
 			                        </a> 
 			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
 			                            <i className="fab fa-linkedin"></i>
+			                        </a>
+			                        <a href="https://github.com/mickoangelolacap" target="_blank">
+			                            <i className="fab fa-github"></i>
 			                        </a>
 			                    </span>
 							</div>

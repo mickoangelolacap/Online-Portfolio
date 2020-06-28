@@ -79,6 +79,9 @@ const Navbar = () => {
 						                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
 						                            <i className="fab fa-linkedin"></i>
 						                        </a>
+						                        <a href="https://github.com/mickoangelolacap" target="_blank">
+						                            <i className="fab fa-github"></i>
+						                        </a>
 						                    </div>
 
 								      </div>
@@ -88,7 +91,7 @@ const Navbar = () => {
 
 						    </li>
 						    <li className="nav-item">
-						      <a className="nav-link" href="https://drive.google.com/file/d/10XHvPrhqjifLY3Y5OOOyK5HKf5VI5TB_/view?usp=sharing" target="_blank">Resume</a>
+						      <a className="nav-link" href="https://drive.google.com/file/d/1mec3mxJt6NgOy4gy4cNjO0ylLsGLyVQP/view?usp=sharing" target="_blank">Resume</a>
 						    </li>						    
 						</ul>
 					</div>

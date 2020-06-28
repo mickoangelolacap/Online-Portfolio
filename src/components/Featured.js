@@ -70,7 +70,7 @@ const Featured = () => {
 											<img src={nodejs} alt=""/>
 											<img src={graphql} alt=""/>
 											<img src={apollo} alt=""/>
-											<a href="http://mimesis-macl.herokuapp.com/" target="_blank" className="btn btn-outline-danger d-block mt-4 px-5">View Site</a>
+											<a href="https://mimesis-macl.herokuapp.com/" target="_blank" className="btn btn-outline-danger d-block mt-4 px-5">View Site</a>
 										</div>
 									</div>
 							  </div>
