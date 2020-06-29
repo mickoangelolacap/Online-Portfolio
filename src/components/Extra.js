@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react'
+// import ReactDOM from 'react-dom'
 import extra from '../images/extra.png'
 import MACLWR from '../images/MACLWY.png'
 

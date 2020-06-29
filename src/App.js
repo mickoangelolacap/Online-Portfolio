@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
-import React, {useState} from 'react';
-import ReactDOM from 'react-dom'
+import React from 'react';
+// import ReactDOM from 'react-dom'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import About from './components/About'

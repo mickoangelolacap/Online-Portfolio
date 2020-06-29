@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react'
+// import ReactDOM from 'react-dom'
 import MACLWR from '../images/MACLWY.png'
 import scrolldown from '../images/scrolldownb.gif'
 
@@ -27,19 +27,19 @@ const Footer = () => {
 								<p>mickoangelolacap@gmail.com</p>
 								<h1 className="mt-md-5 pt-md-5">FOLLOW ME!</h1>
 								<span className="social-media">
-			                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank">
+			                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-facebook-square"></i>
 			                        </a>
-			                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank">
+			                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-instagram"></i>
 			                        </a>
-			                        <a href="https://www.twitter.com/angelolacap" target="_blank">
+			                        <a href="https://www.twitter.com/angelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-twitter"></i>
 			                        </a> 
-			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
+			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-linkedin"></i>
 			                        </a>
-			                        <a href="https://github.com/mickoangelolacap" target="_blank">
+			                        <a href="https://github.com/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-github"></i>
 			                        </a>
 			                    </span>
@@ -49,19 +49,19 @@ const Footer = () => {
 								<p>mickoangelolacap@gmail.com</p>
 								<h1 className="mt-5 pt-5">FOLLOW ME!</h1>
 								<span className="social-media">
-			                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank">
+			                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-facebook-square"></i>
 			                        </a>
-			                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank">
+			                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-instagram"></i>
 			                        </a>
-			                        <a href="https://www.twitter.com/angelolacap" target="_blank">
+			                        <a href="https://www.twitter.com/angelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-twitter"></i>
 			                        </a> 
-			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
+			                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-linkedin"></i>
 			                        </a>
-			                        <a href="https://github.com/mickoangelolacap" target="_blank">
+			                        <a href="https://github.com/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 			                            <i className="fab fa-github"></i>
 			                        </a>
 			                    </span>

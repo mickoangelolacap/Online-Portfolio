@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react'
+// import ReactDOM from 'react-dom'
 import adopt from '../images/adopt.png'
 import adopticon from '../images/adopticon.png'
 import laravel from '../images/laravel.png'
@@ -12,7 +12,7 @@ import heroku from '../images/heroku.png'
 // import vantageicon from '../images/vantageicon.png'
 import mimesis from '../images/mimesis.png'
 import mimesisicon from '../images/mimesisicon.png'
-import gitlab from '../images/gitlab.png'
+// import gitlab from '../images/gitlab.png'
 import covid from '../images/covid.png'
 import covidicon from '../images/covidicon.png'
 import mysql from '../images/mysql.png'
@@ -48,7 +48,7 @@ const Featured = () => {
 											<img src={css} alt=""/>
 											<img src={bootstrap} alt=""/>
 											<img src={heroku} alt=""/>
-											<a href="https://adopt-a-fur.herokuapp.com/" target="_blank" className="btn btn-outline-warning d-block mt-4 px-5">View Site</a>
+											<a href="https://adopt-a-fur.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-warning d-block mt-4 px-5">View Site</a>
 										</div>
 									</div>
 							  </div>
@@ -70,7 +70,7 @@ const Featured = () => {
 											<img src={nodejs} alt=""/>
 											<img src={graphql} alt=""/>
 											<img src={apollo} alt=""/>
-											<a href="https://mimesis-macl.herokuapp.com/" target="_blank" className="btn btn-outline-warning d-block mt-4 px-5">View Site</a>
+											<a href="https://mimesis-macl.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-warning d-block mt-4 px-5">View Site</a>
 										</div>
 									</div>
 							  </div>
@@ -89,7 +89,7 @@ const Featured = () => {
 											<img src={heroku} alt=""/>
 											<img src={mysql} alt=""/>
 											<img src={php} alt=""/>
-											<a href="https://macl-covid-watch.herokuapp.com/" target="_blank" className="btn btn-outline-warning d-block mt-4 px-5">View Site</a>
+											<a href="https://macl-covid-watch.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-warning d-block mt-4 px-5">View Site</a>
 										</div>
 									</div>
 							  </div>
@@ -97,7 +97,7 @@ const Featured = () => {
 						</div>
 					</div>
 
-					<ul className="nav nav-pills text-center row align-items-center mt-md-0 mt-4" id="pills-tab" role="tablist">
+					<ul className="nav nav-pills text-center row align-items-center" id="pills-tab" role="tablist">
 					  <li className="nav-item p-0 col-md-4">
 					    <a className="nav-link active adopticon" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
 							<img className="img-fluid" src={adopticon} alt=""/>

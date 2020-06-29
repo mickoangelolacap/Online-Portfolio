@@ -77,13 +77,9 @@ body {
   height: 80px;
   color: #333;
 }
-.show {
-  animation: cssAnimation 2s forwards;
-}
-@keyframes cssAnimation {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+/*.show {
+  delay
+}*/
 .strikethrough {
   color: #666;
   opacity: .5;
@@ -196,8 +192,8 @@ body {
 }
 #featured h1 {
   font-size: 20vh;
-  /*position: relative;*/
-  /*top: 5%;*/
+  position: relative;
+  top: 8%;
   font-weight: bold;
 }
 #featured h2 {
@@ -210,7 +206,7 @@ body {
 }
 .set img {
   height: 50vh;
-  /*padding:0 0 20px 20px;*/
+  margin-top: 40px; 
 }
 .adopt p {
   font-family: 'Roboto', sans-serif;
@@ -258,6 +254,9 @@ body {
 }
 #featured .covidicon {
   background-color: #1c1c1c;
+}
+#featured ul {
+  margin-top: 20px;
 }
 /*End Featured*/
 
@@ -362,12 +361,14 @@ body {
   }
   #about2 h1 {
     font-size: 15vh;
+    top: 5%;
   }
   /*End About*/
 
   /*Featured*/
   #featured h1 {
     font-size: 13vh;
+    top: 5%;
   }
   .tab-content {
     height: 100vh;
@@ -460,9 +461,8 @@ body {
     height: 90vh;
   }
   #featured h1 {
-    font-size: 60px;
-    /*position: relative;*/
-    /*top: 4%;*/
+    font-size: 65px;
+    top: 5%;
   }
   .set img {
     height: 30vh;
@@ -470,6 +470,9 @@ body {
   #featured h2 {
     font-size: 4vh;
   }
+  #featured ul {
+  margin-top: 80px;
+}
   /*End Featured*/
 
   /*Extra*/

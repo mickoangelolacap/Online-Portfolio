@@ -1,7 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import logo from '../images/MACLWY.png'
-import swal from 'sweetalert'
+// import swal from 'sweetalert'
 import emailjs from 'emailjs-com'
 
 // const alert = () => {
@@ -79,19 +79,19 @@ const Navbar = () => {
 											
 											<hr className="bg-warning"/>
 											<div className="social-media text-center">
-						                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank">
+						                        <a href="https://www.facebook.com/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 						                            <i className="fab fa-facebook-square"></i>
 						                        </a>
-						                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank">
+						                        <a href="https://www.instagram.com/mickoangelolacap/" target="_blank" rel="noopener noreferrer">
 						                            <i className="fab fa-instagram"></i>
 						                        </a>
-						                        <a href="https://www.twitter.com/angelolacap" target="_blank">
+						                        <a href="https://www.twitter.com/angelolacap" target="_blank" rel="noopener noreferrer">
 						                            <i className="fab fa-twitter"></i>
 						                        </a> 
-						                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank">
+						                        <a href="https://www.linkedin.com/in/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 						                            <i className="fab fa-linkedin"></i>
 						                        </a>
-						                        <a href="https://github.com/mickoangelolacap" target="_blank">
+						                        <a href="https://github.com/mickoangelolacap" target="_blank" rel="noopener noreferrer">
 						                            <i className="fab fa-github"></i>
 						                        </a>
 						                    </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
 
 						    </li>
 						    <li className="nav-item">
-						      <a className="nav-link" href="https://drive.google.com/file/d/1mec3mxJt6NgOy4gy4cNjO0ylLsGLyVQP/view?usp=sharing" target="_blank">Resume</a>
+						      <a className="nav-link" href="https://drive.google.com/file/d/1mec3mxJt6NgOy4gy4cNjO0ylLsGLyVQP/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
 						    </li>						    
 						</ul>
 					</div>
