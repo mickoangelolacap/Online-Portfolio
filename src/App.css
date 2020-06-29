@@ -49,7 +49,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #F9F6EF;
+  background-color: #000;
 }
 
 /*Navbar*/
@@ -58,6 +58,9 @@ body {
 }
 .nav-item {
   padding: 20px;
+}
+.modal-content {
+  background-color: #1c1c1c; 
 }
 /*End Navbar*/
 
@@ -68,24 +71,35 @@ body {
 #landing h1 {
   font-size: 70px;
   font-weight: bold;
+  color: #F9F6EF;
 }
 #landing img {
   height: 80px;
   color: #333;
 }
-strike {
+.show {
+  animation: cssAnimation 2s forwards;
+}
+@keyframes cssAnimation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.strikethrough {
   color: #666;
   opacity: .5;
+  text-decoration: line-through;
+  transition: 1s;
 }
 /*End Landing*/
 
 /*About*/
 #minimal {
   background-color: #1c1c1c;
+  color: #F9F6EF;
   height: 70vh;
 }
 #minimal h1 {
-  color: #f3f3f3;
+  color: #F9F6EF;
   font-size: 30vh;
   font-family: 'Roboto', sans-serif;
 }
@@ -103,7 +117,7 @@ strike {
 #me img {
   height: 30vh;
   border-radius: 50%;
-  box-shadow: 10px 10px #dc3545;
+  box-shadow: 10px 10px #ffe500;
   position: relative;
   top: -50%;
 }
@@ -133,7 +147,7 @@ strike {
 }
 #about2 #image1 {
   height: 80vh;
-  box-shadow: 20px 20px #dc3545;
+  box-shadow: 20px 20px #ffe500;
 }
 #about2 #skills {
   margin-top: 150px;
@@ -146,6 +160,7 @@ strike {
 #skills h2 {
   font-weight: bold;
   margin-top: 40px;
+  color: #F9F6EF;
   /*border-bottom: 5px solid #dc3545;*/
 }
 #skills figure {
@@ -157,6 +172,7 @@ strike {
 }
 #skills figcaption {
   font-size: 12px;
+  color: #999;
 }
 
 /*About 3*/
@@ -169,6 +185,9 @@ strike {
 #about3 img {
   height: 50vh;
 }
+#about3 h1 {
+  color: #F9F6EF;
+}
 /*End About*/
 
 /*Featured*/
@@ -177,8 +196,8 @@ strike {
 }
 #featured h1 {
   font-size: 20vh;
-  position: relative;
-  top: 9%;
+  /*position: relative;*/
+  /*top: 5%;*/
   font-weight: bold;
 }
 #featured h2 {
@@ -191,7 +210,7 @@ strike {
 }
 .set img {
   height: 50vh;
-  padding:0 0 20px 20px;
+  /*padding:0 0 20px 20px;*/
 }
 .adopt p {
   font-family: 'Roboto', sans-serif;
@@ -207,7 +226,6 @@ strike {
   position: relative;
   top: 15%;
   border-radius: 10px;
-  /*opacity: .5;*/
 }
 #featured .nav-link {
   height: 30vh;
@@ -250,7 +268,7 @@ strike {
 }
 #extra .tatlo {
   height: 100vh;
-  background-color: #dc3545;
+  background-color: #ffe500;
 }
 #extra .logo {
   height: 10vh;
@@ -284,16 +302,16 @@ strike {
   margin: 5px; 
 }
 .social-media a:hover{
-  color: #dc3545;
+  color: #ffe500;
 }
 .foot h1 {
   color: #666;
 }
 .foot p {
-  color: #F9F6EF;
+  color: #ffe500;
 }
 .foot h2 {
-  color: #dc3545;
+  /*color: #ffe500;*/
   font-size: 88px;
   font-weight: bolder;
   position: relative;
@@ -342,6 +360,9 @@ strike {
   #me .aboutname {
     margin-top: 100px;
   }
+  #about2 h1 {
+    font-size: 15vh;
+  }
   /*End About*/
 
   /*Featured*/
@@ -350,6 +371,9 @@ strike {
   }
   .tab-content {
     height: 100vh;
+  }
+  .set img {
+    height: 40vh;
   }
   /*End Featured*/
 
@@ -419,14 +443,13 @@ strike {
     top: -250%;
   }
   #about2 h1 {
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
     top: 6%;
     font-weight: bold;
   }
   #about2 #image1 {
-    height: 80vh;
-    box-shadow: 20px 20px #dc3545;
+    height: 50vh;
   }
   #about3 img {
     height: 20vh;
@@ -438,21 +461,14 @@ strike {
   }
   #featured h1 {
     font-size: 60px;
-    position: relative;
-    top: 4%;
+    /*position: relative;*/
+    /*top: 4%;*/
   }
   .set img {
     height: 30vh;
-    padding:0 0 20px 20px;
   }
   #featured h2 {
     font-size: 4vh;
-  }
-  #featured .nav-link img {
-    height: 12vh;
-  }
-  #featured .nav-link {
-    height: 20vh;
   }
   /*End Featured*/
 
@@ -466,6 +482,9 @@ strike {
   #extra .tatlo {
     height: 5vh;
   }
+  .isa h2 {
+  font-size: 40px;
+}
   /*End Extra*/
 
   /*Footer*/

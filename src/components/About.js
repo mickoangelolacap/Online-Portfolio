@@ -41,7 +41,6 @@ const About = () => {
 				      <h1 className="d-lg-none">MINIMALIST.</h1>
 				      <h1 className="d-lg-none">MINIMALIST.</h1>
 				      <h1 className="d-md-none">MINIMALIST.</h1>
-				      <h1 className="d-md-none">MINIMALIST.</h1>
 				      
 				      <span>I'M NOT, I JUST WANT IT CLEAN.</span>
 				    </div>
@@ -51,11 +50,11 @@ const About = () => {
 						    	<img className="img-fluid" src={dp} alt=""/>
 							</div>
 							<div className="col-12 me2">
-						    	<h3 className="aboutname">Micko Angelo <span className="text-danger">C.</span> Lacap</h3>
+						    	<h3 className="aboutname">Micko Angelo <span className="text-warning">C.</span> Lacap</h3>
 						    	<h1 className="p-2 font-weight-bold">Hey! I'm a Full-Stack Web Developer.</h1>
 							</div>
 							<div className="col-12 me3">
-						    	<button id="closer" className="btn btn-outline-danger py-2 px-5 font-weight-bold mt-2" data-toggle="modal" data-target="#exampleModalCenter">Get Closer</button>
+						    	<button id="closer" className="btn btn-outline-warning py-2 px-5 font-weight-bold mt-2" data-toggle="modal" data-target="#exampleModalCenter">Get Closer</button>
 							</div>
 				    	</div>
 				    </div>
@@ -69,12 +68,12 @@ const About = () => {
 				</div>
 
 				<div id="about2" className="container mb-5 py-5">
-					<div className="row">
-						<div className="col-lg-5 p-md-0 p-4" data-aos="fade-up">
-							<h1 className="text-danger">About.</h1>
+					<div className="row text-center">
+						<div className="col-lg-5 p-5" data-aos="fade-up">
+							<h1 className="text-warning">About.</h1>
 							<img className="img-fluid" id="image1" src={image1} alt=""/>
 						</div>
-						<div id="skills" className="col-lg-7 text-center" data-aos="fade-left">
+						<div id="skills" className="col-lg-7 text-center" data-aos="fade-up">
 							<h2>Front End</h2>
 							<figure>
 								<img src={react} alt="react"/>
@@ -96,10 +95,7 @@ const About = () => {
 								<img src={bootstrap} alt=""/>
 								<figcaption>Bootstrap</figcaption>
 							</figure>
-							<figure>
-								<img src={jquery} alt=""/>
-								<figcaption>jQuery</figcaption>
-							</figure>
+							
 							<h2>Back End</h2>
 							<figure>
 								<img src={mongodb} alt=""/>
@@ -114,10 +110,6 @@ const About = () => {
 								<figcaption>GraphQL</figcaption>
 							</figure>
 							<figure>
-								<img src={apollo} alt=""/>
-								<figcaption>Apollo</figcaption>
-							</figure>
-							<figure>
 								<img src={laravel} alt=""/>
 								<figcaption>Laravel</figcaption>
 							</figure>
@@ -129,6 +121,7 @@ const About = () => {
 								<img src={php} alt=""/>
 								<figcaption>PHP</figcaption>
 							</figure>
+
 							<h2>Other</h2>
 							<figure>
 								<img src={gitlab} alt=""/>
@@ -166,8 +159,8 @@ const About = () => {
 					</div>
 				</div>
 
-				<div id="about3" className="container-fluid py-5 text-center my-5">
-					<h1 className="pb-5">Random <strong className="text-danger">Facts.</strong></h1>
+				<div id="about3" className="container-fluid p-5 text-center my-5">
+					<h1 className="pb-5">Random <strong className="text-warning">Facts.</strong></h1>
 					<img className="img-fluid" src={barchart} alt=""/>
 				</div>
 			</section>

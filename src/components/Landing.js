@@ -1,30 +1,32 @@
 import React, {useState} from 'react'
 import ReactDOM from 'react-dom'
-import scrolldown from '../images/scrolldownb.gif'
+import scrolldown from '../images/scrolldown.gif'
 
 const Landing = () => {
 
 	const [darkMode, setDarkMode] = useState(true)
 
 	let button
-	let dark
+	let strike
+	let show
 
 	if (darkMode) {
-		button = {style: "btn btn-outline-dark p-3",name: "Don't you dare click"}
-		dark = {style: "px-5 mx-5", light: "pt-5"}
+		button = "Don't you dare Click!"
+		strike = null
+		show = "d-none"
 	}
 	else {
-		button = {style: "btn btn-outline-light p-3",name: "Okay you've gone Dark"}
-		dark = {style: "px-5 mx-5 bg-dark", light: "pt-5 text-light"}
+		button = "There you Go."
+		strike = "strikethrough"
+		show = "show"
 	}
 
 	return (
 			
-			<section id="landing" className="p-4 px-lg-5 mx-lg-5">
-				{/*<h3 className="pb-5">Micko Angelo <strong className="text-danger">C.</strong> Lacap</h3>*/}
-				<h1 className="pt-5">Let's turn your <strike>Imagination</strike> Idea </h1>
-				<h1 className="pb-4">into <strike>Reality A</strike> The <span className="text-danger">Real Thing</span></h1>
-				<button className={button.style} onClick={()=>{setDarkMode(!darkMode)}}>{button.name}</button>
+			<section id="landing" className="p-4 px-md-5 mx-md-5">
+				<h1 className="pt-5">Let's turn your <span className={strike}>Imagination</span> <span className={show}>Idea</span> </h1>
+				<h1 className="pb-4">into <span className={strike}>Reality</span> <span className={show}>The <i className="text-warning">Real Thing</i></span></h1>
+				<a href="#" className="btn btn-outline-warning p-3" onClick={()=>{setDarkMode(!darkMode)}}>{button}</a>
 				<a href="#about" className="text-center d-block pt-4 pt-md-5 mt-md-5">
 					<img src={scrolldown} alt=""/>
 				</a>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import ReactDOM from 'react-dom'
-import MACLWR from '../images/MACLWR.png'
+import MACLWR from '../images/MACLWY.png'
 import scrolldown from '../images/scrolldownb.gif'
 
 const Footer = () => {
@@ -67,9 +67,9 @@ const Footer = () => {
 			                    </span>
 							</div>
 							<div className="col-lg-4 col-md-6 col-12 text-center hi">
-								<h2>Say Hi.</h2>
+								<h2 className="text-warning">Say Hi.</h2>
 								<img className="img-fluid ml-5 my-4" src={MACLWR} alt=""/>
-								<span>&copy; 2020 | Micko Angelo <strong className="text-danger">C.</strong> Lacap </span>
+								<span>&copy; 2020 | Micko Angelo <strong className="text-warning">C.</strong> Lacap </span>
 							</div>
 						</div>
 					</div>
